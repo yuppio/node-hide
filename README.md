@@ -27,6 +27,12 @@ var hide = require('node-hide');
 
 var handle = hide.findWindow('Untitled - Notepad') //Track Notepad's ID to Hide it Later
 
+hide.getWindowPosition(handle); // you can get current position of the window
+// output {  left: 557,
+//           top: 196,
+//           right: 1373,
+//           bottom: 805}
+
 hide.hideWindow(handle); //Hide Notepad, I can also take an array of handles, e.g. [1115138,331240]
 setTimeout(function(){
   hide.showWindow(handle); //Show Notepad After a 1 Second Timeout

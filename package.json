@@ -24,6 +24,7 @@
   "homepage": "https://github.com/MrTimcakes/node-hide#readme",
   "dependencies": {
     "ffi": "^2.0.0",
-    "ref": "^1.3.2"
+    "ref": "^1.3.2",
+    "ref-struct": "^1.1.0"
   }
 }
